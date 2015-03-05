@@ -34,6 +34,10 @@ optional arguments:
   -- CMD, --cmd CMD  command with flags that you wish to run
   ```
 
+##Author
+
+Alexis Okuwa [wojons](https://github.com/wojon)
+
 ##Todo
-Setup.py and upload to Pypi For it to be useful
-The fork freature is currently not  set up at this time to work.
+ - Setup.py and upload to Pypi For it to be useful
+ - The fork freature is currently not  set up at this time to work.
