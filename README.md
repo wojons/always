@@ -36,7 +36,7 @@ optional arguments:
 
 ##Author
 
-Alexis Okuwa [wojons](https://github.com/wojon)
+Alexis Okuwa - [wojons](https://github.com/wojon)
 
 ##Todo
  - Setup.py and upload to Pypi For it to be useful
