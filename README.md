@@ -40,5 +40,4 @@ Alexis Okuwa - [wojons](https://github.com/wojon)
 
 ##Todo
  - Setup.py and upload to Pypi For it to be useful
- - Pid file so two dont start doing same thing.
  - The fork freature is currently not  set up at this time to work.
