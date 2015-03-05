@@ -35,4 +35,5 @@ optional arguments:
   ```
 
 ##Todo
+Setup.py and upload to Pypi For it to be useful
 The fork freature is currently not  set up at this time to work.
