@@ -23,7 +23,8 @@ args = vars(parser.parse_args())
 def pid_check(pid_path):
     if os.path.exists(pid_path) is True:
         with open(pid_path,'r') as f:
-            if int(f.read().split("\n")[0]) == int(os.getpid()):
+            pid = f.read().split("\n")[0]
+            if str(pid) == str(os.getpid()):
                 return True
             else:
                 return False
@@ -32,7 +33,6 @@ def pid_check(pid_path):
 
 def pid_del():
     global args
-    print args
     os.remove(args.get('pid'))
     
 def signal_handler(signal, frame):
